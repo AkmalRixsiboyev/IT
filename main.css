@@ -1,3 +1,6 @@
+/*------------------------------------*\
+           gilobalni stila
+\*------------------------------------*/
 * {
   font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
@@ -11,9 +14,22 @@ a {
   width: 1100px;
   margin: 0 auto; }
 
+body {
+  margin-bottom: 90px; }
+
 hr {
   border: #ffffffd1;
   border-bottom: 1px solid #ffffff3b; }
+
+.btn {
+  padding: 10px 35px;
+  background: #4985FF;
+  box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  display: inline-block;
+  margin-top: 35px;
+  cursor: pointer;
+  color: #FFFFFF; }
 
 /*------------------------------------*\
                header
@@ -57,15 +73,39 @@ header {
       padding-bottom: 14px; }
     .header_box .box-box .box_title {
       font-style: normal;
-      font-weight: 800;
-      font-size: 45px; }
-    .header_box .box-box .btn {
-      padding: 10px 35px;
-      background: #4985FF;
-      box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
-      border-radius: 30px;
-      display: inline-block;
-      margin-top: 35px;
-      cursor: pointer; }
+      font-weight: 700;
+      font-size: 42px; }
+
+/*------------------------------------*\
+               section
+\*------------------------------------*/
+.section_top .section_top-wrapper {
+  margin: 0 auto;
+  max-width: 650px;
+  text-align: center;
+  padding-top: 50px; }
+  .section_top .section_top-wrapper p {
+    font-size: 14px;
+    padding-top: 15px;
+    color: #999999; }
+.section_top .section_top-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px; }
+  .section_top .section_top-box img {
+    width: 90px;
+    padding-bottom: 15px; }
+  .section_top .section_top-box .section_top-box_icon {
+    width: 29%;
+    display: flex;
+    align-items: flex-end; }
+    .section_top .section_top-box .section_top-box_icon div {
+      padding-left: 10px; }
+      .section_top .section_top-box .section_top-box_icon div p {
+        font-size: 13px;
+        padding-top: 10px;
+        color: #999999; }
+.section_top .btn_box {
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
